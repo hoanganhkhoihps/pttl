@@ -685,8 +685,6 @@ a {
 .cid-scsRXZdpMf {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-scsRXZdpMf nav.navbar {
   position: fixed;
@@ -786,8 +784,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-scsRXZdpMf .navbar.opened {
   transition: all 0.3s;
@@ -1619,8 +1617,6 @@ a {
 .cid-scsSQYtVN6 {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-scsSQYtVN6 nav.navbar {
   position: fixed;
@@ -1720,8 +1716,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-scsSQYtVN6 .navbar.opened {
   transition: all 0.3s;
@@ -1968,21 +1964,20 @@ a {
     left: -1rem;
   }
 }
-.cid-scsSX4Lebx {
+.cid-sAzZFxV2PW {
   padding-top: 6rem;
-  padding-bottom: 0rem;
-  background-color: #fff0b0;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
 }
-.cid-scsSX4Lebx .mbr-section-title,
-.cid-scsSX4Lebx .mbr-text,
-.cid-scsSX4Lebx .mbr-section-btn {
-  text-align: center;
-}
-.cid-scsSX4Lebx .video-wrapper {
-  margin: auto;
-}
-.cid-scsSX4Lebx .video-wrapper iframe {
+.cid-sAzZFxV2PW .image-wrap img {
   width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sAzZFxV2PW .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
 }
 .cid-scsT3Y0Vgd {
   padding-top: 5rem;
@@ -2000,6 +1995,22 @@ a {
 .cid-scsT3Y0Vgd form .mbr-section-btn .btn {
   width: 100%;
   height: 100%;
+}
+.cid-scsSX4Lebx {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
+  background-color: #fff0b0;
+}
+.cid-scsSX4Lebx .mbr-section-title,
+.cid-scsSX4Lebx .mbr-text,
+.cid-scsSX4Lebx .mbr-section-btn {
+  text-align: center;
+}
+.cid-scsSX4Lebx .video-wrapper {
+  margin: auto;
+}
+.cid-scsSX4Lebx .video-wrapper iframe {
+  width: 100%;
 }
 .cid-scsTcqS0Lr {
   padding-top: 6rem;
